@@ -1,6 +1,6 @@
 package com.raghavender;
 
-    class TestClass {
+    public class TestClass {
 	private int id;
 	private String firstName;
 	public String lastName;
@@ -27,6 +27,10 @@ package com.raghavender;
 	
 	public String getlastName() {
 		return lastName;
+	}
+	
+	public void print() {
+		
 	}
 	
 
