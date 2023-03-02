@@ -11,7 +11,8 @@ public class TestClassMain {
 	   test.setFirstName("Raghavender");
 	   test.lastName="Suravaram";
 	   
-	   System.out.println(test.getId()+" "+test.getFirstName()+" "+test.lastName);
+	   
+	   System.out.println(test.getId()+" "+test.getFirstName()+" "+test.lastName + TestClass.Organization);
    }
 		
 

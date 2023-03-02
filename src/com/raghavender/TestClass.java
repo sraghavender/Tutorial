@@ -4,6 +4,7 @@ package com.raghavender;
 	private int id;
 	private String firstName;
 	public String lastName;
+	static final String Organization = "Myorg";
 	
 	public int setId(int id) {
 		return this.id=id;
@@ -29,7 +30,8 @@ package com.raghavender;
 		return lastName;
 	}
 	
-	public void print() {
+	public void print(String value) {
+		System.out.print(value);
 		
 	}
 	
