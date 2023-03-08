@@ -1,6 +1,6 @@
 package com.raghavender.java.tutorial;
 
-public class Lamdas {
+public class Lambdas {
 	public static void main(String[] args) {
 	    Cat myCat = new Cat(); // creating a cat object
 	 	myCat.print("Hello"); // print method of the object
