@@ -18,7 +18,7 @@ public class Lamdas {
 	
 
  static void PrintThing(Printable thing) {
-	  String s ="Hello word";                          //passing interface name to the method. 
+	  String s ="Hello world";                          //passing interface name to the method. 
 	 thing.print(s); }
  }
 
