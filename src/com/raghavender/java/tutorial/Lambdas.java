@@ -11,7 +11,7 @@ public class Lambdas {
 		Printable LambdasPrintable = (s) -> System.out.println("Meow");  
 		PrintThing(LambdasPrintable); 
 		PrintThing(
-			(s) -> System.out.println("Meow"+"from Lambdas expression"));
+			(s) -> System.out.println("Meow"+"from Lambdas expression")); 
 		
 		
 	}
